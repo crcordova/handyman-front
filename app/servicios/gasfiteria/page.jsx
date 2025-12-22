@@ -58,7 +58,7 @@ export default function GasfiteriaPage(){
               Descubre algunos de los trabajos que hemos realizado para nuestros clientes
             </p>
             
-            <ProjectsList projects={projects} serviceName="Carpintería" />
+            <ProjectsList projects={projects} serviceName="Gasfitería" />
           </div>
         </section>
 

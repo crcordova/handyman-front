@@ -74,7 +74,7 @@ const HomePage = () => {
   const whyChooseUs = [
     {
       title: 'Experiencia Comprobada',
-      description: 'Más de 10 años de experiencia en el rubro',
+      description: 'Más de 5 años de experiencia en el rubro',
       icon: '🏆'
     },
     {
@@ -96,11 +96,9 @@ const HomePage = () => {
 
   const workZones = [
     'Pichilemu',
-    'Paredones',
-    'Marchihue',
-    'Litueche',
-    'Navidad',
-    'La Estrella'
+    'Punta Lobos',
+    'Cahuil',
+
   ];
 
   return (

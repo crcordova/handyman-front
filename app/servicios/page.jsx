@@ -86,31 +86,6 @@ export default function ServiciosPage() {
         </div>
       </section>
 
-      {/* <section className="py-20 bg-linear-to-br from-blue-600 to-blue-800 text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">¿Listo para Comenzar?</h2>
-          <p className="text-xl mb-8 text-blue-100">
-            Contáctanos hoy y cuéntanos sobre tu proyecto. 
-            Te daremos una cotización sin compromiso.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=Hola,%20me%20gustaría%20consultar%20sobre%20sus%20servicios`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-600 transition-all"
-            >
-              WhatsApp
-            </a>
-            <a
-              href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`}
-              className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition-all"
-            >
-              Email
-            </a>
-          </div>
-        </div>
-      </section> */}
       <ContactCTA 
         title="¿Listo para Cotizar tu Proyecto?"
         description="Contáctanos hoy mismo y recibe una cotización detallada sin compromiso. Evaluamos tu proyecto personalmente y te damos el mejor precio."
